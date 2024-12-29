@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manapalleturu</title>
+    <style>
+        /* General styling for all screen sizes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 20;
+            height: 190vh;
+            background-color: #fdf5e6;
+        }
+
+        .container {
+            width: 100%; /* Make it take up the full width of the screen */
+            max-width: 900px; /* Max width for larger screens */
+            padding: 30px;
+            box-sizing: border-box;
+            background-color: white;
+            border-radius: 38px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .caption {
+            font-size: 1.9em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .links a {
+            display: block;
+            margin: 10px 0;
+            padding: 30px;
+            text-decoration: none;
+            color: #333;
+            background-color: #d4edda;
+            border-radius: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .links a img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Brand Logo -->
+        <img src="https://i.imgur.com/Ue2YiW5.jpeg" alt="Manapalleturu" class="logo">
+
+        <!-- Caption -->
+        <div class="caption">Village telugu home made foods</div>
+
+        <!-- Links -->
+        <div class="links">
+            <a href="https://sites.google.com/view/manapalleturu-menu-card/home" target="_blank">
+                <img src="https://img.icons8.com/ios/50/000000/menu.png" alt="Menu"> MENU
+            </a>
+            <a href="https://wa.me/9966939409?text=Hi%2C%20mana%20palleturu%20.in%2C%20I%20want%20to%20know%20more%20about%20your%20services" target="_blank">
+                <img src="https://img.icons8.com/ios/50/000000/whatsapp.png" alt="WhatsApp Icon"> Chat us on WhatsApp
+            </a>
+            <a href="https://www.instagram.com/mana_palleturu_foods/" target="_blank">
+                <img src="https://img.icons8.com/ios/50/000000/instagram.png" alt="Instagram Icon"> Follow us on Instagram
+            </a>
+            <a href="https://manapalleturu.in/" target="_blank">
+                <img src="https://img.icons8.com/ios/50/000000/domain.png" alt="Website Icon"> Website www.palleturu.in
+            </a>
+        </div>
+    </div>
+</body>
+</html>
